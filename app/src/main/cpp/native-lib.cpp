@@ -2,10 +2,10 @@
 
 extern "C" {
     #include <jni.h>
-    #include "jniLibs/ffmpeg/armeabi-v7a/include/libavformat/avformat.h"
-    #include "jniLibs/ffmpeg/armeabi-v7a/include/libavcodec/avcodec.h"
-    #include "jniLibs/ffmpeg/armeabi-v7a/include/libavutil/avutil.h"
-    #include "jniLibs/ffmpeg/armeabi-v7a/include/libavfilter/avfilter.h"
+    #include "libavformat/avformat.h"
+    #include "libavcodec/avcodec.h"
+    #include "libavutil/avutil.h"
+    #include "libavfilter/avfilter.h"
     #include "cstring"
 
 JNIEXPORT jstring JNICALL

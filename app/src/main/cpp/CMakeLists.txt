@@ -16,7 +16,7 @@ find_library(
 # 设置ffmpeg库所在路径的目录
 set(distribution_DIR ${CMAKE_SOURCE_DIR}/jniLibs/ffmpeg/${ANDROID_ABI})
 
-set(FFMPEG_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/jniLibs/ffmpeg/${ANDROID_ABI}/include)
+set(FFMPEG_INCLUDE_DIR jniLibs/ffmpeg/${ANDROID_ABI}/include)
 
 message(${CMAKE_SOURCE_DIR})
 message(${CMAKE_SOURCE_DIR}/jniLibs/ffmpeg/${ANDROID_ABI}/include)
