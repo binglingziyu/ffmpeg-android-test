@@ -11,9 +11,9 @@ public class MainActivity extends Activity {
         System.loadLibrary("avcodec");
         System.loadLibrary("avfilter");
         System.loadLibrary("avformat");
-        System.loadLibrary("avutil");
         System.loadLibrary("swresample");
         System.loadLibrary("swscale");
+        System.loadLibrary("avutil");
         System.loadLibrary("native-lib");
     }
 
@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mInfoView = (TextView) findViewById(R.id.textview);
+        mInfoView = findViewById(R.id.info_text);
     }
 
 
